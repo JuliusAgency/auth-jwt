@@ -1,10 +1,10 @@
 ## Authentication with express, passport and JWT
 
-The auth-jwt package - is a component of the @jla/node [packages set](https://github.com/JuliusAgency/node-packages-set) for Nodejs applications.  
+The auth-jwt package - is a component of the @juliusagency/node [packages set](https://github.com/JuliusAgency/node-packages-set) for Nodejs applications.  
 
 <p>
-  <a href="https://www.npmjs.com/package/@jla/auth-jwt" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@jla/auth-jwt.svg">
+  <a href="https://www.npmjs.com/package/@juliusagency/auth-jwt" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@juliusagency/auth-jwt.svg">
   </a>
   <a href="https://github.com/JuliusAgency/auth-jwt#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -19,7 +19,7 @@ The auth-jwt package - is a component of the @jla/node [packages set](https://gi
 
 ### Installation
 ```bash
-  npm install --save @jla/auth-jwt
+  npm install --save @juliusagency/auth-jwt
 ```
 
 ### Pre-conditions:
@@ -28,7 +28,7 @@ The auth-jwt package - is a component of the @jla/node [packages set](https://gi
 
 ### Usage  
 ```
-  import { AuthJwtOptions, setupAuthMiddleware } from '@jla/auth-jwt';  
+  import { AuthJwtOptions, setupAuthMiddleware } from '@juliusagency/auth-jwt';  
 
   // Auth middleware setup
   const authJwtOptions: AuthJwtOptions = {
