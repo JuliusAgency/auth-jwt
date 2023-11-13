@@ -121,9 +121,15 @@ Inspired by [Implementing a JWT auth system with TypeScript and Node](https://no
     - npm.yaml - publish the package to the npm registry.
     - github.yaml - make package link to the Github registry.
     The actions runs automatically after each push and pull-request.
-    Note: Before running the GitHub Actions, set this two environment variables:
-        GITHUB_TOKEN – go to GitHub and select your repository. Then go to Settings/Actions/General. You should find a section called “Workflow permissions.” Ensure that “Read and write permissions” is selected for the GITHUB_TOKEN. We need this to push the newly generated package version to the repository.
-        NPM_TOKEN – in your NPM account, go to the “Access Tokens” page and create a new classic token. The type of the new access token should be “Automation”. Copy the token and go to GitHub. In your repository, navigate to “Settings” and “Secrets”. Add a new repository secret named NPM_TOKEN and paste the access token you created in NPM.
+    Note: Before running the GitHub Actions, set this two environment variables:  
+        GITHUB_TOKEN – go to GitHub and select your repository. Then go to Settings/Actions/General.  
+        You should find a section called “Workflow permissions”.  
+        Ensure that “Read and write permissions” is selected for the GITHUB_TOKEN.   
+        We need this to push the newly generated package version to the repository.  
+        NPM_TOKEN – in your NPM account, go to the “Access Tokens” page and create a new classic token.  
+        The type of the new access token should be “Automation”.  
+        Copy the token and go to GitHub. In your repository, navigate to “Settings” and “Secrets”.  
+        Add a new repository secret named NPM_TOKEN and paste the access token you created in NPM.
 
 ### Usage the commands from the command line during the development:
 
